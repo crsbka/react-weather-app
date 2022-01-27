@@ -1,0 +1,166 @@
+
+button {
+    margin: 5px;
+}
+
+#city-input {
+    margin: 5px;
+}
+
+.container {
+    max-width: 700px;
+    border: 1px solid #d2b8d5;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgba(192, 196, 243, 0.76);
+    box-shadow:3px 2px 5px #8c9a8c;
+
+}
+
+.city-name {
+    margin: 23px 29px 31px 5px;
+    color: #6d76ab;
+    font-weight: bold;
+}
+
+#main-icon{
+    float: left;
+    width: 70px;
+    margin: -5px 0 0 0;
+}
+.max-min-temp-forecast{
+    font-size: 15px;
+    color: #6d76ab;
+    text-align: center;
+
+}
+.max-temp {
+    font-weight: bold;
+}
+
+.search-btn {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.search-btn:hover {
+    color: #fff;
+    background-color: #6d76ab;
+    border-color: #bfc4f5;
+}
+
+.current-btn {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+.current-btn:hover {
+    color: #fff;
+    background-color: #6d76ab;
+    border-color: #bfc4f5;
+}
+
+.city-conditions {
+    margin-top: 10px;
+}
+
+.float-right {
+    float: right;
+    color: #284646;
+    margin: 0px 0px 5px 0px;
+}
+
+.float-left {
+    color: #284646;
+    font-weight: bold;
+    margin: 0px 0px 5px 0px;
+}
+
+.units{
+    position: relative;
+    font-size: 15px;
+    top: -30px;
+}
+
+.icon {
+    color: #6d76ab;
+    text-align: center;
+    font-size: 40px;
+}
+
+.curr-cond-icon {
+    font-size: 40px;
+    color: #6d76ab;
+}
+
+.weather-forecast {
+    text-align: center;
+}
+
+
+.current-conditions-text {
+    font-size: 16px;
+    color: #616961;
+}
+
+.cond {
+    margin: 4px 10px 10px 0;
+    font-size: 20px;
+}
+
+.current-forecast {
+    font-size: 30px;
+    color: #6d76ab;
+    margin: 0px 0px 10px 0px;
+    font-weight: bold;
+}
+
+.weekdays {
+    color: #616961;
+    font-size: 20px;
+    text-align: center;
+}
+
+#current-date {
+    font-size: 20px;
+    color: #616961;
+    margin: -25px 0 8px 0;
+}
+
+.main-temperature {
+    font-size: 60px;
+    color: #6d76ab;
+    margin: 16px 11px 18px 17px;
+}
+
+#weather-temp {
+    margin: -10px 0px 0px -7px;
+}
+
+a {
+    text-decoration: none;
+    color: #6d76ab;
+}
+
+#footer {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 13px;
+
+}
+#current-info{
+    padding: 8px 15px 10px 22px;
+}
+.active {
+    color: black;
+    cursor: default;
+}
+
+.active:hover{
+    text-decoration: none;
+
+}
+#weather-info{
+
+    margin: 25px -73px 5px 22px;
+}
