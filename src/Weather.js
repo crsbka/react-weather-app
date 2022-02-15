@@ -61,7 +61,7 @@ export default function Weather() {
                     <div className="float-left" id="weather-temp">
                         <span className="main-temperature" id="main-temperature">{weatherData.temperature} </span>
                         <span className="units">
-                          <a href="#" id="celsius-link" className="active">°C</a>|<a href="#" id="fahrenheit-link">°F</a>
+                          <a href="/" id="celsius-link" className="active">°C</a>|<a href="/" id="fahrenheit-link">°F</a>
                         </span>
                     </div>
                 </div>
@@ -88,15 +88,9 @@ export default function Weather() {
                 </div>
             </div>
 
-
-            <div className="weather-forecast" id="forecast">
-
-
-            </div>
-
             <div id="footer">This project was coded by <a href="https://www.linkedin.com/in/kristina-laktiushkina/">Kristina
                 Laktiushkina</a> and is
-                <a href="https://github.com/crsbka/vanilla-weather-app.git"> open-sourced on GitHub</a>
+                <a href="https://github.com/crsbka/react-weather-app"> open-sourced on GitHub</a>
             </div>
         </div>
     );
