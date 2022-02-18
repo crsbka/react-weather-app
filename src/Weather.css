@@ -1,25 +1,21 @@
 
-button {
-    margin: 5px;
-}
-
 #city-input {
     margin: 5px;
 }
 
 .container {
-    max-width: 700px;
+    max-width: 700px !important ;
     border: 1px solid #d2b8d5;
     border-radius: 10px;
     padding: 15px;
-    background-color: rgba(192, 196, 243, 0.76);
+    background-color: rgba(191, 196, 245, 0.56);
     box-shadow:3px 2px 5px #8c9a8c;
 
 }
 
 .city-name {
     margin: 23px 29px 31px 5px;
-    color: #6d76ab;
+    color: #4e5791;
     font-weight: bold;
 }
 
@@ -30,7 +26,7 @@ button {
 }
 .max-min-temp-forecast{
     font-size: 15px;
-    color: #6d76ab;
+    color: #4e5791;
     text-align: center;
 
 }
@@ -103,9 +99,10 @@ button {
     color: #616961;
 }
 
-.cond {
+.conditions {
     margin: 4px 10px 10px 0;
     font-size: 20px;
+    color: #616961;
 }
 
 .current-forecast {
