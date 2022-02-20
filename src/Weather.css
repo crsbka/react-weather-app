@@ -1,6 +1,6 @@
 
 #city-input {
-    margin: 5px;
+    margin: 5px 5px 5px 0;
 }
 
 .container {
@@ -14,23 +14,8 @@
 }
 
 .city-name {
-    margin: 23px 29px 31px 5px;
-    color: #4e5791;
-    font-weight: bold;
-}
-
-#main-icon{
-    float: left;
-    width: 70px;
-    margin: -5px 0 0 0;
-}
-.max-min-temp-forecast{
-    font-size: 15px;
-    color: #4e5791;
-    text-align: center;
-
-}
-.max-temp {
+    margin: 14px 18px 8px 6px;
+    color: #6d76ab;
     font-weight: bold;
 }
 
@@ -56,9 +41,6 @@
     border-color: #bfc4f5;
 }
 
-.city-conditions {
-    margin-top: 10px;
-}
 
 .float-right {
     float: right;
@@ -69,7 +51,6 @@
 .float-left {
     color: #284646;
     font-weight: bold;
-    margin: 0px 0px 5px 0px;
 }
 
 .units{
@@ -78,56 +59,17 @@
     top: -30px;
 }
 
-.icon {
-    color: #6d76ab;
-    text-align: center;
-    font-size: 40px;
-}
-
-.curr-cond-icon {
-    font-size: 40px;
-    color: #6d76ab;
-}
-
-.weather-forecast {
-    text-align: center;
-}
-
-
-.current-conditions-text {
-    font-size: 16px;
-    color: #616961;
-}
 
 .conditions {
-    margin: 4px 10px 10px 0;
     font-size: 20px;
     color: #616961;
-}
-
-.current-forecast {
-    font-size: 30px;
-    color: #6d76ab;
-    margin: 0px 0px 10px 0px;
-    font-weight: bold;
-}
-
-.weekdays {
-    color: #616961;
-    font-size: 20px;
-    text-align: center;
-}
-
-#current-date {
-    font-size: 20px;
-    color: #616961;
-    margin: -25px 0 8px 0;
+    margin: 20px -10px 0px 0px;
 }
 
 .main-temperature {
     font-size: 60px;
     color: #6d76ab;
-    margin: 16px 11px 18px 17px;
+    margin: 21px 0px 18px 17px;
 }
 
 #weather-temp {
@@ -145,9 +87,7 @@ a {
     font-size: 13px;
 
 }
-#current-info{
-    padding: 8px 15px 10px 22px;
-}
+
 .active {
     color: black;
     cursor: default;
@@ -157,7 +97,12 @@ a {
     text-decoration: none;
 
 }
-#weather-info{
 
-    margin: 25px -73px 5px 22px;
+.btn{
+    margin: 6px 0px 5px 2px;
 }
+
+canvas {
+    margin: 0px 0px -10px 0px;
+}
+
