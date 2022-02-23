@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import "./Weather.css";
 import axios from "axios";
 import WeatherInfo from "./WeatherInfo";
-import Footer from "./Footer";
+
 
 export default function Weather(props) {
     const [city, setCity] = useState(props.defaultCity);
@@ -42,7 +42,7 @@ export default function Weather(props) {
 
     if (weather.ready) {
         return (<div>
-                <div className="container">
+
                     <div className="row">
                         <div className="col-12">
                             <form className="d-flex" id="search-city-form" onSubmit={handleSubmit}>
@@ -77,8 +77,8 @@ export default function Weather(props) {
                     </div>
                     <WeatherInfo data={weather}/>
                 </div>
-                <Footer/>
-            </div>
+
+
         );
     } else {
         search()
