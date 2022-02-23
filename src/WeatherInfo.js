@@ -2,6 +2,7 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
+import "./Weather.css";
 
 export default function WeatherInfo(props) {
     return (
@@ -19,7 +20,7 @@ export default function WeatherInfo(props) {
 
                     <FormattedDate date={props.data.date}/>
 
-                    <div className="text-capitalize">{props.data.description}</div>
+                    <div className="weather-description text-capitalize">{props.data.description}</div>
 
 
                     <div className="float-left">
