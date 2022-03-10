@@ -53,25 +53,16 @@ export default function Weather(props) {
                                        id="city-input"
                                        className="form-control me-2"
                                        type="search"
-                                       placeholder="Search by city"
+                                       placeholder="Enter a city"
                                        aria-label="Search"
                                        autoComplete="on"
                                 />
                                 <button
-                                    className="btn btn-outline-success search-btn"
+                                    className="btn btn-outline-primary btn-search"
                                     id="search-button"
                                     type="submit">
                                     Search
                                 </button>
-
-
-                                <button
-                                    className="btn btn-outline-primary current-btn"
-                                    id="current-button"
-                                    type="submit">
-                                    Current
-                                </button>
-
 
                             </form>
                         </div>

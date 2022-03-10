@@ -14,7 +14,7 @@ export default function WeatherInfo(props) {
                 </div>
             </div>
 
-            <div className="row">
+            <div className="description row">
 
                 <div className="conditions col-5">
 
@@ -35,24 +35,24 @@ export default function WeatherInfo(props) {
 
                 <div className="col-2"></div>
 
-                <div className="col-5">
+                <div className="description col-5">
                     <div className="row">
                         <div>
-                            <span className="float-left">Feels like</span>
-                            <span id="feels-like-value"
+                            <span className="details float-left">Feels like</span>
+                            <span id="details-value-feels-like"
                                   className="float-right">{Math.round(props.data.feelslike)}°</span>
                         </div>
                         <div>
-                            <span className="float-left">Wind</span>
-                            <span id="wind" className="float-right">{props.data.wind}km/h E</span>
+                            <span className="details float-left">Wind</span>
+                            <span id="details-value-wind" className="float-right">{props.data.wind}km/h E</span>
                         </div>
                         <div>
-                            <span className="float-left">Pressure</span>
-                            <span id="pressure" className="float-right">{props.data.pressure}hPa</span>
+                            <span className="details float-left">Pressure</span>
+                            <span id="details-value-pressure" className="float-right">{props.data.pressure}hPa</span>
                         </div>
                         <div>
-                            <span className="float-left">Humidity</span>
-                            <span id="humidity" className="float-right">{props.data.humidity}%</span>
+                            <span className="details float-left">Humidity</span>
+                            <span id="details-value-humidity" className="float-right">{props.data.humidity}%</span>
                         </div>
                     </div>
                 </div>

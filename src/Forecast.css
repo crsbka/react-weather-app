@@ -1,8 +1,11 @@
 .forecast-temps-min {
     opacity: 0.6;
     margin:  0 0 0 5px;
+    color: #111511;
 }
 
 .Forecast {
     text-align: center;
+    margin: 12px -10px 3px -10px;
+
 }
