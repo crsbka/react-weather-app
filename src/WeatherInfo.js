@@ -35,8 +35,8 @@ export default function WeatherInfo(props) {
 
                 <div className="col-2"></div>
 
-                <div className="description col-5">
-                    <div className="row">
+                <div className="col-5">
+                    <div className="description row">
                         <div>
                             <span className="details float-left">Feels like</span>
                             <span id="details-value-feels-like"
