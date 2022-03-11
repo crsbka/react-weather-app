@@ -34,14 +34,14 @@
 }
 
 .btn-search {
-    color: #6d76ab !important;
-    border-color: #6d76ab !important;
+    color: #6d76ab;
+    border-color: #6d76ab;
 }
 
 .btn-search:hover {
-    color: #ffffff !important;
-    border-color: #6d76ab !important;
-    background-color: #6d76ab !important;
+    color: #ffffff;
+    border-color: #6d76ab;
+    background-color: #6d76ab;
 
 }
 
@@ -64,7 +64,7 @@
 .conditions {
     font-size: 20px;
     color: #616961;
-    margin: 20px -10px 0px 6px;
+    margin: 0px -9px -3px 5px;
 }
 
 
@@ -85,8 +85,8 @@ a {
 
 #footer {
     text-align: center;
-    margin: 20px 0 0 0;
-    font-size: 13px;
+    margin: 10px 0 0 0;
+    font-size: 12px;
 
 }
 
@@ -107,7 +107,6 @@ a {
 canvas {
     margin: 0px 0px -10px 0px;
 }
-
 
 .weather-description {
     color: black;
